@@ -1,0 +1,13 @@
+# Generated on 2026-11-10
+# Normalize line endings
+# Default behavior
+**/*.py linguist-detectable
+*.jpeg binary
+
+*.min.js linguist-generated
+Cargo.lock linguist-generated
+public/index.html linguist-vendored
+public/** linguist-vendored
+
+package-lock.json linguist-generated
+*.bat text eol=crlf
